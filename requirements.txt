@@ -1,0 +1,21 @@
+# =========================================================================
+# CRITICAL NOTE FOR INSTALLATION ON LOW-MEMORY SYSTEMS:
+# Installing PyTorch (torch) requires a large amount of RAM. 
+# If your installation crashes or stops due to memory issues, 
+# you MUST run pip with the cache disabled:
+#
+#    pip install --no-cache-dir -r requirements.txt
+#
+# =========================================================================
+
+torch
+torchvision
+torchaudio
+basicsr
+realesrgan
+opencv-python
+Pillow
+numpy
+psutil
+gputil
+gfpgan
